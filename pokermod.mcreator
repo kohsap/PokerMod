@@ -1,0 +1,1052 @@
+{
+  "mod_elements": [
+    {
+      "name": "Poker",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poker",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ColodaCard",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coloda_card",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokermod/item/ColodaCardItem.java",
+          "src/main/resources/assets/pokermod/models/item/coloda_card.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Coloda",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coloda",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pokermod/recipes/coloda.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "Game",
+      "type": "gui",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "game",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokermod/client/gui/GameScreen.java",
+          "src/main/java/net/mcreator/pokermod/world/inventory/GameMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "GameMod",
+      "type": "keybind",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "game_mod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokermod/network/GameModMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "OpenGameMod",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_game_mod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokermod/procedures/OpenGameModProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "TuzChervi",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tuz_chervi",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokermod/models/item/tuz_chervi.json",
+          "src/main/java/net/mcreator/pokermod/item/TuzCherviItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "TuzBuBi",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tuz_bu_bi",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokermod/models/item/tuz_bu_bi.json",
+          "src/main/java/net/mcreator/pokermod/item/TuzBuBiItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "TuzKresti",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tuz_kresti",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokermod/models/item/tuz_kresti.json",
+          "src/main/java/net/mcreator/pokermod/item/TuzKrestiItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "TuzPiKi",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tuz_pi_ki",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokermod/models/item/tuz_pi_ki.json",
+          "src/main/java/net/mcreator/pokermod/item/TuzPiKiItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "KorolChervi",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "korol_chervi",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokermod/models/item/korol_chervi.json",
+          "src/main/java/net/mcreator/pokermod/item/KorolCherviItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "KorolBubi",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "korol_bubi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokermod/item/KorolBubiItem.java",
+          "src/main/resources/assets/pokermod/models/item/korol_bubi.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "KorolKresti",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "korol_kresti",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokermod/item/KorolKrestiItem.java",
+          "src/main/resources/assets/pokermod/models/item/korol_kresti.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "KorolPiki",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "korol_piki",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokermod/models/item/korol_piki.json",
+          "src/main/java/net/mcreator/pokermod/item/KorolPikiItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "DamaChervi",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dama_chervi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokermod/item/DamaCherviItem.java",
+          "src/main/resources/assets/pokermod/models/item/dama_chervi.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "DamaBubi",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dama_bubi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokermod/item/DamaBubiItem.java",
+          "src/main/resources/assets/pokermod/models/item/dama_bubi.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "DamaKresti",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dama_kresti",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokermod/item/DamaKrestiItem.java",
+          "src/main/resources/assets/pokermod/models/item/dama_kresti.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "DamaPiki",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dama_piki",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokermod/item/DamaPikiItem.java",
+          "src/main/resources/assets/pokermod/models/item/dama_piki.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ValetChervi",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "valet_chervi",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokermod/models/item/valet_chervi.json",
+          "src/main/java/net/mcreator/pokermod/item/ValetCherviItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ValetBubi",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "valet_bubi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokermod/item/ValetBubiItem.java",
+          "src/main/resources/assets/pokermod/models/item/valet_bubi.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ValetKresti",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "valet_kresti",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokermod/item/ValetKrestiItem.java",
+          "src/main/resources/assets/pokermod/models/item/valet_kresti.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ValetPiki",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "valet_piki",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokermod/item/ValetPikiItem.java",
+          "src/main/resources/assets/pokermod/models/item/valet_piki.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CardChervi2",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "card_chervi_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokermod/models/item/card_chervi_2.json",
+          "src/main/java/net/mcreator/pokermod/item/CardChervi2Item.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CardBubi2",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "card_bubi_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokermod/models/item/card_bubi_2.json",
+          "src/main/java/net/mcreator/pokermod/item/CardBubi2Item.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CardKresti2",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "card_kresti_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokermod/item/CardKresti2Item.java",
+          "src/main/resources/assets/pokermod/models/item/card_kresti_2.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CardPiki2",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "card_piki_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokermod/item/CardPiki2Item.java",
+          "src/main/resources/assets/pokermod/models/item/card_piki_2.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CardChervi3",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "card_chervi_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokermod/models/item/card_chervi_3.json",
+          "src/main/java/net/mcreator/pokermod/item/CardChervi3Item.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CardBubi3",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "card_bubi_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokermod/item/CardBubi3Item.java",
+          "src/main/resources/assets/pokermod/models/item/card_bubi_3.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CardKresti3",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "card_kresti_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokermod/models/item/card_kresti_3.json",
+          "src/main/java/net/mcreator/pokermod/item/CardKresti3Item.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CardPiki3",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "card_piki_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokermod/models/item/card_piki_3.json",
+          "src/main/java/net/mcreator/pokermod/item/CardPiki3Item.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CardChervi4",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "card_chervi_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokermod/models/item/card_chervi_4.json",
+          "src/main/java/net/mcreator/pokermod/item/CardChervi4Item.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CardBubi4",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "card_bubi_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokermod/models/item/card_bubi_4.json",
+          "src/main/java/net/mcreator/pokermod/item/CardBubi4Item.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CardKresti4",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "card_kresti_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokermod/item/CardKresti4Item.java",
+          "src/main/resources/assets/pokermod/models/item/card_kresti_4.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CardPiki4",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "card_piki_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokermod/item/CardPiki4Item.java",
+          "src/main/resources/assets/pokermod/models/item/card_piki_4.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CardChervi5",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "card_chervi_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokermod/item/CardChervi5Item.java",
+          "src/main/resources/assets/pokermod/models/item/card_chervi_5.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CardBubi5",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "card_bubi_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokermod/item/CardBubi5Item.java",
+          "src/main/resources/assets/pokermod/models/item/card_bubi_5.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CardKresti5",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "card_kresti_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokermod/models/item/card_kresti_5.json",
+          "src/main/java/net/mcreator/pokermod/item/CardKresti5Item.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CardPiki5",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "card_piki_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokermod/models/item/card_piki_5.json",
+          "src/main/java/net/mcreator/pokermod/item/CardPiki5Item.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CardChervi6",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "card_chervi_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokermod/models/item/card_chervi_6.json",
+          "src/main/java/net/mcreator/pokermod/item/CardChervi6Item.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CardBubi6",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "card_bubi_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokermod/models/item/card_bubi_6.json",
+          "src/main/java/net/mcreator/pokermod/item/CardBubi6Item.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CardKresti6",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "card_kresti_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokermod/models/item/card_kresti_6.json",
+          "src/main/java/net/mcreator/pokermod/item/CardKresti6Item.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CardPiki6",
+      "type": "item",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "card_piki_6",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokermod/item/CardPiki6Item.java",
+          "src/main/resources/assets/pokermod/models/item/card_piki_6.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CardChervi7",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "card_chervi_7",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokermod/item/CardChervi7Item.java",
+          "src/main/resources/assets/pokermod/models/item/card_chervi_7.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CardBubi7",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "card_bubi_7",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokermod/item/CardBubi7Item.java",
+          "src/main/resources/assets/pokermod/models/item/card_bubi_7.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CardKresti7",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "card_kresti_7",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokermod/models/item/card_kresti_7.json",
+          "src/main/java/net/mcreator/pokermod/item/CardKresti7Item.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CardPiki7",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "card_piki_7",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokermod/models/item/card_piki_7.json",
+          "src/main/java/net/mcreator/pokermod/item/CardPiki7Item.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CardChervi8",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "card_chervi_8",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokermod/item/CardChervi8Item.java",
+          "src/main/resources/assets/pokermod/models/item/card_chervi_8.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CardBubi8",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "card_bubi_8",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokermod/models/item/card_bubi_8.json",
+          "src/main/java/net/mcreator/pokermod/item/CardBubi8Item.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CardKresti8",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "card_kresti_8",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokermod/item/CardKresti8Item.java",
+          "src/main/resources/assets/pokermod/models/item/card_kresti_8.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CardPiki8",
+      "type": "item",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "card_piki_8",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokermod/models/item/card_piki_8.json",
+          "src/main/java/net/mcreator/pokermod/item/CardPiki8Item.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CardChervi9",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "card_chervi_9",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokermod/models/item/card_chervi_9.json",
+          "src/main/java/net/mcreator/pokermod/item/CardChervi9Item.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CardBubi9",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "card_bubi_9",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokermod/models/item/card_bubi_9.json",
+          "src/main/java/net/mcreator/pokermod/item/CardBubi9Item.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CardKresti9",
+      "type": "item",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "card_kresti_9",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokermod/models/item/card_kresti_9.json",
+          "src/main/java/net/mcreator/pokermod/item/CardKresti9Item.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CardPiki9",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "card_piki_9",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokermod/models/item/card_piki_9.json",
+          "src/main/java/net/mcreator/pokermod/item/CardPiki9Item.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CardChervi10",
+      "type": "item",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "card_chervi_10",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokermod/item/CardChervi10Item.java",
+          "src/main/resources/assets/pokermod/models/item/card_chervi_10.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CardBubi10",
+      "type": "item",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "card_bubi_10",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokermod/item/CardBubi10Item.java",
+          "src/main/resources/assets/pokermod/models/item/card_bubi_10.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CardKresti10",
+      "type": "item",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "card_kresti_10",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokermod/item/CardKresti10Item.java",
+          "src/main/resources/assets/pokermod/models/item/card_kresti_10.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CardPiki10",
+      "type": "item",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "card_piki_10",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokermod/models/item/card_piki_10.json",
+          "src/main/java/net/mcreator/pokermod/item/CardPiki10Item.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "DealCards",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deal_cards",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokermod/procedures/DealCardsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "StartGame",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "start_game",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokermod/procedures/StartGameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "playerHand",
+      "type": "itemstack",
+      "scope": "map",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "dealerHand",
+      "type": "itemstack",
+      "scope": "map",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "playerScore",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "dealerScore",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {},
+  "language_map": {
+    "en_us": {
+      "item.pokermod.card_piki_3": "Card Piki 3",
+      "item.pokermod.card_piki_4": "Card Piki 4",
+      "item.pokermod.card_piki_5": "Card Piki 5",
+      "item.pokermod.card_piki_6": "Card Piki 6",
+      "item.pokermod.card_piki_7": "Card Piki 7",
+      "item.pokermod.card_piki_8": "Card Piki 8",
+      "item.pokermod.card_piki_9": "Card Piki 9",
+      "item.pokermod.dama_bubi": "Dama Bubi",
+      "item.pokermod.tuz_kresti": "Tuz Kresti",
+      "item.pokermod.card_kresti_6": "Card Kresti 6",
+      "item.pokermod.card_kresti_7": "Card Kresti 7",
+      "item.pokermod.card_kresti_4": "Card Kresti 4",
+      "item.pokermod.card_kresti_5": "Card Kresti 5",
+      "item.pokermod.card_kresti_2": "Card Kresti 2",
+      "item.pokermod.dama_chervi": "Dama Chervi",
+      "item.pokermod.card_kresti_3": "Card Kresti 3",
+      "item.pokermod.card_kresti_8": "Card Kresti 8",
+      "item.pokermod.card_piki_2": "Card Piki 2",
+      "item.pokermod.card_kresti_9": "Card Kresti 9",
+      "item.pokermod.valet_kresti": "Valet Kresti",
+      "item.pokermod.korol_piki": "Korol Piki",
+      "item.pokermod.valet_bubi": "Valet Bubi",
+      "item_group.pokermod.poker": "Poker",
+      "item.pokermod.tuz_chervi": "Tuz Chervi",
+      "item.pokermod.card_chervi_2": "Card Chervi 2",
+      "item.pokermod.tuz_pi_ki": "Tuz Pi Ki",
+      "item.pokermod.card_chervi_4": "Card Chervi 4",
+      "item.pokermod.card_chervi_3": "Card Chervi 3",
+      "item.pokermod.card_bubi_2": "Card Bubi 2",
+      "item.pokermod.card_chervi_6": "Card Chervi 6",
+      "item.pokermod.card_bubi_3": "Card Bubi 3",
+      "item.pokermod.dama_kresti": "Dama Kresti",
+      "item.pokermod.card_chervi_5": "Card Chervi 5",
+      "item.pokermod.card_chervi_8": "Card Chervi 8",
+      "item.pokermod.dama_piki": "Dama Piki",
+      "item.pokermod.card_chervi_7": "Card Chervi 7",
+      "item.pokermod.card_bubi_6": "Card Bubi 6",
+      "item.pokermod.coloda_card": "Coloda Card",
+      "item.pokermod.card_bubi_7": "Card Bubi 7",
+      "item.pokermod.card_chervi_9": "Card Chervi 9",
+      "item.pokermod.card_bubi_4": "Card Bubi 4",
+      "item.pokermod.card_bubi_5": "Card Bubi 5",
+      "item.pokermod.tuz_bu_bi": "Tuz Bu Bi",
+      "key.pokermod.game_mod": "Game Mod",
+      "item.pokermod.card_bubi_8": "Card Bubi 8",
+      "item.pokermod.card_bubi_9": "Card Bubi 9",
+      "item.pokermod.card_bubi_10": "Card Bubi 1 0",
+      "item.pokermod.valet_chervi": "Valet Chervi",
+      "item.pokermod.korol_kresti": "Korol Kresti",
+      "item.pokermod.card_chervi_10": "Card Chervi 1 0",
+      "item.pokermod.korol_chervi": "Korol Chervi",
+      "item.pokermod.valet_piki": "Valet Piki",
+      "item.pokermod.card_piki_10": "Card Piki 1 0",
+      "item.pokermod.korol_bubi": "Korol Bubi",
+      "gui.pokermod.game.label_21": "21",
+      "item.pokermod.card_kresti_10": "Card Kresti 1 0"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Recipies",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "pokermod",
+    "modName": "PokerMod",
+    "version": "1.0.0",
+    "author": "atama, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.pokermod"
+  },
+  "mcreatorVersion": 202400118518
+}

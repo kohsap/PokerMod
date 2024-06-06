@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "pokermod:item/texas_holdem_starter_card"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "_fv": 60,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "P",
+    "keyBindingName": "Game Mod",
+    "keyBindingCategoryKey": "ui",
+    "onKeyPressed": {
+      "name": "OpenGameMod"
+    }
+  }
+}
